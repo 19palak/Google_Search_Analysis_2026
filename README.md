@@ -208,66 +208,95 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/19palak/Google_Search_Analysis_2026.git
+```
 
+Move into the project directory:
+
+```bash
 cd Google_Search_Analysis_2026
+```
 
+Install the required Python libraries:
+
+```bash
 pip install -r requirements.txt
+```
 
-▶️ How to Run
+---
+
+## ▶️ How to Run
+
 Start Jupyter Notebook:
+
+```bash
 jupyter notebook
-Open the notebooks folder and run the notebooks in the following order:
-google_search_analysis.ipynb
-multi_keyword_analysis.ipynb
-trending_now_analysis.ipynb
+```
+
+Open the `notebooks` folder and run the notebooks in the following order:
+
+1. `google_search_analysis.ipynb`
+2. `multi_keyword_analysis.ipynb`
+3. `trending_now_analysis.ipynb`
+
 Run the cells in each notebook from top to bottom to reproduce the analysis and visualizations.
 
+---
 
-⚠️ Limitations
-~Google Trends provides relative search-interest values rather than exact search counts.
-~The historical dataset currently covers January to September 2026.
-~The Trending Now dataset represents a snapshot of recent search activity.
-~Trending searches can change frequently.
-~Search interest does not necessarily represent actual product usage or user preference.
-~Correlation does not imply causation.
-~Google Trends values are normalized within their comparison context.
-~The analysis is based on the selected keywords and datasets and may not represent all search behavior in India.
+## ⚠️ Limitations
 
-🚀 Future Scope
+- Google Trends provides relative search-interest values rather than exact search counts.
+- The historical dataset currently covers January to September 2026.
+- The Trending Now dataset represents a snapshot of recent search activity.
+- Trending searches can change frequently.
+- Search interest does not necessarily represent actual product usage or user preference.
+- Correlation does not imply causation.
+- Google Trends values are normalized within their comparison context.
+- The analysis is based on the selected keywords and datasets and may not represent all search behavior in India.
+
+---
+
+## 🚀 Future Scope
+
 Possible future improvements include:
-Building an interactive Streamlit dashboard.
-Adding more technology and AI-related keywords.
-Performing regional analysis across Indian states.
-Analyzing search trends by category.
-Automating data collection where technically and reliably possible.
-Adding more historical datasets for year-to-year comparison.
-Applying machine learning techniques for trend forecasting.
-Adding interactive filters for keywords, dates, and regions.
-Creating automated reports from the analysis.
 
+- Building an interactive Streamlit dashboard.
+- Adding more technology and AI-related keywords.
+- Performing regional analysis across Indian states.
+- Analyzing search trends by category.
+- Automating data collection where technically and reliably possible.
+- Adding more historical datasets for year-to-year comparison.
+- Applying machine learning techniques for trend forecasting.
+- Adding interactive filters for keywords, dates, and regions.
+- Creating automated reports from the analysis.
 
-👩‍💻 Skills Demonstrated
+---
+
+## 👩‍💻 Skills Demonstrated
+
 This project demonstrates practical experience with:
-Python
-Pandas
-NumPy
-Matplotlib
-Seaborn
-Data cleaning
-Exploratory Data Analysis (EDA)
-Statistical analysis
-Correlation analysis
-Time-series analysis
-Data visualization
-Data interpretation
-Jupyter Notebook
-Git and GitHub
-Working with real-world datasets
 
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Data cleaning
+- Exploratory Data Analysis (EDA)
+- Statistical analysis
+- Correlation analysis
+- Time-series analysis
+- Data visualization
+- Data interpretation
+- Jupyter Notebook
+- Git and GitHub
+- Working with real-world datasets
 
-📌 Disclaimer
+---
+
+## 📌 Disclaimer
+
 This project is intended for educational and portfolio purposes.
+
 Google Trends data represents relative search interest and should not be interpreted as exact search volume, user preference, or actual product usage.
+
 The results presented in this project are based on the selected datasets, keywords, time periods, and analysis methods used in the project.
-
-

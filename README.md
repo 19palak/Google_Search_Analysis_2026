@@ -201,7 +201,7 @@ Google_Search_Analysis_2026/
 │
 └── README.md
 
-
+```
 ## ⚙️ Installation
 
 Clone the repository:
